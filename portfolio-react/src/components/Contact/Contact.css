@@ -1,0 +1,72 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-top: 100px;
+}
+
+.contact-title h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-section label{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-section input,
+.contact-section textarea{
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 50px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.contact-section input::placeholder,
+.contact-section textarea::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus{
+    border-color: white;
+}
+
+.contact-submit{
+    padding: 20px 60px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    background: transparent;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.contact-submit:hover{
+    background: white;
+    color: black;
+}

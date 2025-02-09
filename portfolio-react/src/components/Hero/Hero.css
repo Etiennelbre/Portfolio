@@ -1,0 +1,33 @@
+.hero{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+}
+
+.hero img{
+    margin-top: 135px;
+    width: 300px;
+}
+
+.hero h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.hero-resume{
+    padding: 20px 60px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.hero-resume:hover{
+    background: white;
+    color: black;
+}
